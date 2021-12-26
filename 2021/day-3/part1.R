@@ -1,1 +1,2 @@
-mydata <- read.table("input", sep='')
+mydata <- read.table("split-input", sep='')
+colMeans(mydata)
